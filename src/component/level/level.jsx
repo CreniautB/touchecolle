@@ -4,12 +4,15 @@ import sendList from './list'
 import sendRep from './rep'
 import EndGame from '../endGame/endGame'
 import './level.css'
+import sendListName from './nameList'
 
 
 function Level({level, chrono}) {
 
     let actualList = sendList(level)
     let rep = sendRep(level)
+
+    let title = sendListName(level)
 
     const [reponse, setReponse ] = useState(null)
     const [firstReponse, setFirstReponse] = useState(null)
@@ -70,7 +73,7 @@ function Level({level, chrono}) {
 
     return (
         <div>
-
+            <h2 >{title}</h2>
             <button className="time button">
                 <span>Il vous reste </span>
                 <Timer
