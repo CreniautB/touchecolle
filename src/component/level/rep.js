@@ -235,7 +235,7 @@ let rep1 = [
     if (level ===4) {return rep4}
     if (level ===5) {return rep5}
     if (level ===6) {return rep6}
-    if (level ===7) {return rep1}
+    if (level ===7) {return rep7}
     if (level ===8) {return rep8}
     if (level ===9) {return rep9}
     if (level ===10) {return rep10}

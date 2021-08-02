@@ -51,6 +51,7 @@ function HomePage() {
                 <button className="button" key={4} onClick={(e) => selectLevel(4,e)}>Liste n°4</button>
                 <button className="button" key={5} onClick={(e) => selectLevel(5,e)}>Liste n°5</button>
                 <button className="button" key={6} onClick={(e) => selectLevel(6,e)}>Liste n°6</button>
+                <button className="button" key={7} onClick={(e) => selectLevel(7,e)}>Liste n°7</button>
                 <button className="button" key={8} onClick={(e) => selectLevel(8,e)}>Liste n°8</button>
                 <button className="button" key={9} onClick={(e) => selectLevel(9,e)}>Liste n°9</button>
                 <button className="button" key={10} onClick={(e) => selectLevel(10,e)}>Liste n°10</button>
