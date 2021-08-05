@@ -7,12 +7,13 @@ import './level.css'
 import sendListName from './nameList'
 
 
-function Level({level, chrono}) {
+function Level({level, chrono, level10}) {
 
     let actualList = sendList(level)
     let rep = sendRep(level)
-
     let title = sendListName(level)
+
+
 
     const [reponse, setReponse ] = useState(null)
     const [firstReponse, setFirstReponse] = useState(null)
@@ -103,6 +104,12 @@ function Level({level, chrono}) {
                     {rep.map( item => <button  onClick={(e) => secondClick(e, item[0])}  className="square" key={item[0]} >{item[0]}</button>)}
                 </div>
             </div>
+            
+            {level10 ? <div className="containerMesure"> <div className="button btnMesure" >ml = millilitre</div> <div className="button btnMesure" >cl = centilitre</div>  <div className="button btnMesure" >h = hectare</div> <div className="button btnMesure" >m3 = mètre cube </div> <div className="button btnMesure" >km = kilomètre</div> <div className="button btnMesure" >p = pouce</div>  <div className="button btnMesure" >a = are</div>
+                            <div className="button btnMesure" >dl = décilitre</div> <div className="button btnMesure" > dm = décimètre </div> <div className="button btnMesure" >cm = centimètre</div> <div className="button btnMesure" >mm = millimètre</div>
+                            <div className="button btnMesure" > t = tonne</div> <div className="button btnMesure" > q = quintal</div> <div className="button btnMesure" >kg = kilo</div> <div className="button btnMesure" >g = gramme</div> <div className="button btnMesure" >mg = milligramme</div>
+                            <div className="button btnMesure" >min = minute</div> <div className="button btnMesure" >s = seconde</div> <div className="button btnMesure" >oz = once liquide</div> <div className="button btnMesure" > lb = livre(pound)</div>
+            </div> : <></> }
 
         </div>
     );

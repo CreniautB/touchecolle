@@ -47,4 +47,31 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+.containerMesure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btnMesure {
+  padding: 0.5em !important;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .listContainer {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .square {
+    font-size: 15px !important;
+  }
+}
 /*# sourceMappingURL=level.css.map */

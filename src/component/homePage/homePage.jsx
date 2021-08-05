@@ -6,14 +6,21 @@ function HomePage() {
 
     const [level, setLevel] = useState(false)
     const [chrono, setChrono] = useState(false)
+    const [level10, setLevel10] = useState(false)
 
     function selectLevel(id) {
         setLevel(id)
     }
 
+    function selectLevel10(id) {
+        setLevel(id)
+        setLevel10(true)
+    }
+
     if(level && chrono) {
+
         return (
-            <Level  level={level} chrono={chrono} setChrono={setChrono} />
+            <Level  level={level} chrono={chrono} setChrono={setChrono} level10={level10} />
         ) 
     }
 
@@ -54,7 +61,7 @@ function HomePage() {
                 <button className="button" key={7} onClick={(e) => selectLevel(7,e)}>Liste n°7</button>
                 <button className="button" key={8} onClick={(e) => selectLevel(8,e)}>Liste n°8</button>
                 <button className="button" key={9} onClick={(e) => selectLevel(9,e)}>Liste n°9</button>
-                <button className="button" key={10} onClick={(e) => selectLevel(10,e)}>Liste n°10</button>
+                <button className="button" key={10} onClick={(e) => selectLevel10(10,e)}>Liste n°10</button>
             </div>
       </div>
     );
