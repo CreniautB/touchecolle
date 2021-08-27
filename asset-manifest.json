@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/touchecolle/static/css/main.e264606a.chunk.css",
-    "main.js": "/touchecolle/static/js/main.f99c98de.chunk.js",
-    "main.js.map": "/touchecolle/static/js/main.f99c98de.chunk.js.map",
+    "main.css": "/touchecolle/static/css/main.f3a66640.chunk.css",
+    "main.js": "/touchecolle/static/js/main.6711e0a5.chunk.js",
+    "main.js.map": "/touchecolle/static/js/main.6711e0a5.chunk.js.map",
     "runtime-main.js": "/touchecolle/static/js/runtime-main.b43f8bac.js",
     "runtime-main.js.map": "/touchecolle/static/js/runtime-main.b43f8bac.js.map",
-    "static/js/2.08fe0358.chunk.js": "/touchecolle/static/js/2.08fe0358.chunk.js",
-    "static/js/2.08fe0358.chunk.js.map": "/touchecolle/static/js/2.08fe0358.chunk.js.map",
+    "static/js/2.f27ad209.chunk.js": "/touchecolle/static/js/2.f27ad209.chunk.js",
+    "static/js/2.f27ad209.chunk.js.map": "/touchecolle/static/js/2.f27ad209.chunk.js.map",
     "static/js/3.c1ea3925.chunk.js": "/touchecolle/static/js/3.c1ea3925.chunk.js",
     "static/js/3.c1ea3925.chunk.js.map": "/touchecolle/static/js/3.c1ea3925.chunk.js.map",
     "index.html": "/touchecolle/index.html",
-    "static/css/main.e264606a.chunk.css.map": "/touchecolle/static/css/main.e264606a.chunk.css.map",
-    "static/js/2.08fe0358.chunk.js.LICENSE.txt": "/touchecolle/static/js/2.08fe0358.chunk.js.LICENSE.txt",
+    "static/css/main.f3a66640.chunk.css.map": "/touchecolle/static/css/main.f3a66640.chunk.css.map",
+    "static/js/2.f27ad209.chunk.js.LICENSE.txt": "/touchecolle/static/js/2.f27ad209.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/touchecolle/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b43f8bac.js",
-    "static/js/2.08fe0358.chunk.js",
-    "static/css/main.e264606a.chunk.css",
-    "static/js/main.f99c98de.chunk.js"
+    "static/js/2.f27ad209.chunk.js",
+    "static/css/main.f3a66640.chunk.css",
+    "static/js/main.6711e0a5.chunk.js"
   ]
 }
