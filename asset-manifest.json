@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/touchecolle/static/css/main.f3a66640.chunk.css",
-    "main.js": "/touchecolle/static/js/main.6711e0a5.chunk.js",
-    "main.js.map": "/touchecolle/static/js/main.6711e0a5.chunk.js.map",
+    "main.js": "/touchecolle/static/js/main.3b2785af.chunk.js",
+    "main.js.map": "/touchecolle/static/js/main.3b2785af.chunk.js.map",
     "runtime-main.js": "/touchecolle/static/js/runtime-main.b43f8bac.js",
     "runtime-main.js.map": "/touchecolle/static/js/runtime-main.b43f8bac.js.map",
     "static/js/2.f27ad209.chunk.js": "/touchecolle/static/js/2.f27ad209.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b43f8bac.js",
     "static/js/2.f27ad209.chunk.js",
     "static/css/main.f3a66640.chunk.css",
-    "static/js/main.6711e0a5.chunk.js"
+    "static/js/main.3b2785af.chunk.js"
   ]
 }
