@@ -41,7 +41,7 @@ function HomePage() {
       <div className="homePage">
         
            <h1>
-               Jeux du Toucher Collé <br/>
+               Jeu du Touché Collé <br/>
            </h1>
 
            <h2 className="regle">
