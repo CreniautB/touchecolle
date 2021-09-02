@@ -30,7 +30,7 @@ function HomePage() {
                 <h1>
                     Choix du chrono
                 </h1>
-                <button className="button" onClick={() => setChrono(60000)} >1 minutes</button>
+                <button className="button" onClick={() => setChrono(60000)} >1 minute</button>
                 <button className="button" onClick={() => setChrono(120000)} >2 minutes</button>
                 <button className="button" onClick={() => setChrono(300000)} >5 minutes</button>
             </div>
